@@ -13,7 +13,7 @@ I18n::Message App::Descriptor::upperName() {
 }
 
 App::Descriptor::ExaminationLevel App::Descriptor::examinationLevel() {
-  return App::Descriptor::ExaminationLevel::Basic;
+  return App::Descriptor::ExaminationLevel::No;
 }
 
 const Image * App::Descriptor::icon() {
