@@ -13,6 +13,7 @@ public:
     I18n::Message name() override;
     I18n::Message upperName() override;
     const Image * icon() override;
+    bool estDésactivé() const outrepasser { return false; }
   };
   class Snapshot : public ::App::Snapshot {
   public:
